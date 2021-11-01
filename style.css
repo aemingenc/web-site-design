@@ -170,6 +170,7 @@ img{
     width: 100%;
     color:white;
 }
+/* ---------------SERVİCES------------------- */
 .container-3{
     height: 70vh;
     display: flex;
@@ -208,4 +209,140 @@ img{
 .send{
     width: 20%;
     height: 5vh;
+}
+@media screen and (max-width:420px){
+    .nav__left{
+    
+        font-size: 0.7rem;
+        width: 30%;
+    }
+    .nav__right{width: 30%;
+        font-size: 0.8rem;
+    display:flex;
+flex-direction: column;}
+
+h1{font-size: 2.5rem;
+    color:white;
+    text-align: center;
+}
+p{width: 80%;;
+    color:white;
+    font-size: 1rem;
+    text-align: center;
+}
+.scnd-black__left{
+    width: 30%;
+}
+.scnd-black__right{
+    height: 7vh;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.search{
+    
+    width:100%;
+    height:10vh;
+}
+
+button{
+    height: 10vh;
+    color:white;
+    border:none;
+    background-color: #E8491D;
+    width: 50%;
+    
+}
+.scnd-white{
+    display: flex;
+    justify-content: space-around;
+    background-color:white ;
+    width: 100%;
+    height:50vh;
+}
+img{
+    width: 20%;
+}
+.img{
+    text-align: center;
+    }
+.content p{
+    font-size: 0.8rem;
+}
+.third-black{
+    font-size: 0.8rem;
+    background-color:#35424A;
+    
+}
+/* ------------------------ABOUT-------------------- */
+.container-2{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.container-2__left p{
+    line-height: 2vh;
+    font-size: 0.7rem;    
+}
+.container-2__right p{
+    line-height: 2vh;
+    font-size: 0.7rem;
+    
+}
+.container-2__right{
+    text-align: center;
+    margin-left: 0;
+    height: 25vh;
+    line-height: 3vh;
+    background: #35424A;
+}
+/* --------------SERVCES----------------- */
+.container-3{
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+}
+.container-3__left{
+    margin-top: 3vh;
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.left-up p,.left-down p,.left-center p{
+   padding-right: 8vh;
+    width: 100%;
+    font-size: 0.5rem;
+}
+.left-up,.left-down,.left-center{
+    text-align: center;
+    padding-right: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+.container-3__left h2{
+    width: 100%;
+    text-align: center;
+    padding:0;
+}
+.container-3__left p{
+    text-align: center;
+    font-size: 0.9rem;
+    color: black;
+}
+.container-3__right{
+    font-size: 0.9rem;
+    color:white;
+    padding-left: 5vh;
+    background-color:#35424A;
+    margin-left:0;
+    margin-top: 3vh;
+    width: 100%;
+    height: 40vh;
+}
+
+
+
+
 }
